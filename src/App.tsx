@@ -1,5 +1,7 @@
 
 import './App.css'
+import Celebrations from './components/Celebrations/Celebrations'
+import HeroSection from './components/HeroSection/HeroSection'
 
 function App() {
 
@@ -7,6 +9,8 @@ function App() {
     <>
       <main>
         <h1>HELLO</h1>
+        <HeroSection/>
+        <Celebrations/>
       </main>
     </>
   )
