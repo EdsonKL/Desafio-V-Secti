@@ -4,7 +4,7 @@ import imgMA from "../../assets/images/maimg.png"
 
 function HeroSection() {
   return (
-    <section className={styles.container}>
+    <section id="hero" className={styles.container}>
       <div className={styles.mainContent}>
         <h1>Conheça a cultura do <span>Maranhão</span></h1>
         <img src={imgMA} alt="imagem do maranhão em mapa" />
