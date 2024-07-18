@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <main>
-        <h1>HELLO</h1>
         <HeroSection/>
         <Celebrations/>
       </main>
