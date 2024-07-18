@@ -6,8 +6,17 @@ import imgSaojoao from "../../assets/images/saojoao.jpg";
 import imgTambor from "../../assets/images/tamborcrioula.jpg";
 import imgDivino from "../../assets/images/festadivino.jpg";
 
+export interface TabsInfo{
+  id: string,
+  title: string,
+  tabTitle: string,
+  content: string,
+  image: string,
+  link: string
+}
+
 function Celebration() {
-  const tabs = [
+  const tabs: TabsInfo[] = [
     {
       id: "1",
       tabTitle: "Dança Do Caroço",
@@ -69,7 +78,7 @@ function Celebration() {
           calendário cultural do Maranhão.
         </p>
       </div>
-      <Tabs tabs={tabs} img={imgCaroco} />
+      <Tabs tabs={tabs}/>
     </section>
   );
 }
