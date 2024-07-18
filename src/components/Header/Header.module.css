@@ -1,0 +1,38 @@
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: #1C1C1C;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0px;
+    border: 2px;
+}
+
+.navbarList{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbarItems{
+    padding: 5px;
+    font-family: Inter;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+img{
+    width: 100px;
+}

@@ -56,7 +56,7 @@ function Celebration() {
   ];
 
   return (
-    <section className={styles.mainContent}>
+    <section id="celebrations" className={styles.mainContent}>
       <div className={styles.textTitle}>
         <h1>Festas</h1>
         <p>

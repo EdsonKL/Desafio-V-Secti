@@ -1,14 +1,16 @@
 
 import './App.css'
 import Celebrations from './components/Celebrations/Celebrations'
+import Header from './components/Header/Header'
 import HeroSection from './components/HeroSection/HeroSection'
+
 
 function App() {
 
   return (
     <>
       <main>
-        <h1>HELLO</h1>
+        <Header/>
         <HeroSection/>
         <Celebrations/>
       </main>
