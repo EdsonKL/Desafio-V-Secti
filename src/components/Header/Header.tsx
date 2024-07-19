@@ -20,7 +20,7 @@ function Header() {
           <ul className={styles.navbarList}>
             <li>
               <button
-                onClick={() => navigateToSection("/home", "#hero")}
+                onClick={() => navigateToSection("/", "#hero")}
                 className={styles.navbarItems}
               >
                 Início
@@ -28,7 +28,7 @@ function Header() {
             </li>
             <li>
               <button
-                onClick={() => navigateToSection("/home", "#celebrations")}
+                onClick={() => navigateToSection("/", "#celebrations")}
                 className={styles.navbarItems}
               >
                 Festas
@@ -36,7 +36,7 @@ function Header() {
             </li>
             <li>
               <button
-                onClick={() => navigateToSection("/home", "#foods")}
+                onClick={() => navigateToSection("/", "#foods")}
                 className={styles.navbarItems}
               >
                 Culinária
@@ -44,7 +44,7 @@ function Header() {
             </li>
             <li>
               <button
-                onClick={() => navigateToSection("/home", "#handicraft")}
+                onClick={() => navigateToSection("/", "#handicraft")}
                 className={styles.navbarItems}
               >
                 Artesanato
