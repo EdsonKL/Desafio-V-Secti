@@ -1,5 +1,7 @@
 .mainContent{
     padding: 0 25px;
+    padding-top: 60px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
