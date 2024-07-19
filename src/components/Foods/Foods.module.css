@@ -1,0 +1,34 @@
+.mainContent{
+    padding: 0 25px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textTitle{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    h1{
+        font-size: 56px;
+    }
+    p{
+        font-size: 24px;
+        text-align: center;
+        max-width: 1200px;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 960px) {
+    .textTitle {
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+    }
+  }
