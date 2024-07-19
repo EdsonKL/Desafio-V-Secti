@@ -52,7 +52,7 @@ function Header() {
             </li>
             <li>
               <button
-                onClick={() => navigateToSection("/home", "#tourism")}
+                onClick={() => navigateToSection("/", "#tourism")}
                 className={styles.navbarItems}
               >
                 Turismo
