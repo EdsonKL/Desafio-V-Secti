@@ -23,7 +23,7 @@ function Developers() {
           <Card
             avatar={avatarGabs}
             githubLink="https://github.com/gabsmatos"
-            linkedinLink="#"
+            linkedinLink="https://www.linkedin.com/in/gabriela-matos-5318b31bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             name="< Ana Gabriela />"
           />
           <Card

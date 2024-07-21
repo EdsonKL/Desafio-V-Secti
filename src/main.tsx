@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import MainRoutes from './routes.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
+  <BrowserRouter >
     <MainRoutes/>
   </BrowserRouter>
   
