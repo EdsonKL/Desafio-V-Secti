@@ -1,9 +1,9 @@
-import { TabsInfo } from "../Celebrations/Celebrations";
+// import { TabsInfo } from "../Celebrations/Celebrations";
 import Tabs from "../Tabs/Tabs";
 import styles from "./Foods.module.css";
 
 function Foods() {
-  const tabs: TabsInfo[] = [
+  const tabs: any = [
     {
       id: "1",
       tabTitle: "Arroz de Cuxá",
@@ -11,7 +11,13 @@ function Foods() {
       content:
         "De origem indígena, a Dança do Caroço se concentra na região do Delta do Parnaíba, principalmente no município de Tutóia. Isolados ou formando uma roda ou cordão, os componentes brincam respondendo às toadas improvisadas tiradas pelos cantadores, ao som de instrumentos como tambores, cuíca e cabaça.",
       image: "",
-      link: "",
+      details: {
+      video: "8W0G3w7ijtU",
+      description1: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed dui eget urna ornare fauc",
+      description2: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed dui eget urna ornare fauc",
+      image1: "/src/assets/images/imgImperatriz2.png",
+      image2: "/src/assets/images/imgImperatriz3.png"
+    }
     },
     {
       id: "2",
@@ -19,7 +25,7 @@ function Foods() {
       title: "Lorem Ipsum",
       content: "Lorem Ipsum",
       image: "",
-      link: "",
+      video: "",
     },
     {
       id: "3",
@@ -27,7 +33,7 @@ function Foods() {
       title: "Lorem Ipsum",
       content: "Lorem Ipsum",
       image: "",
-      link: "",
+      video: "",
     },
     {
       id: "4",
@@ -35,7 +41,7 @@ function Foods() {
       title: "Lorem Ipsum",
       content: "Lorem Ipsum.",
       image: "",
-      link: "",
+      video: "",
     },
     {
       id: "5",
@@ -43,7 +49,7 @@ function Foods() {
       title: "Lorem Ipsum",
       content: "Lorem Ipsum",
       image: "",
-      link: "",
+      video: "",
     },
   ];
 
