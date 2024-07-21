@@ -3,9 +3,9 @@ import styles from "./Tabs.module.css";
 import { TabsInfo } from "../Celebrations/Celebrations";
 import { Link } from "react-router-dom";
 
-interface TabsProps {
-  tabs: TabsInfo[];
-}
+// interface TabsProps {
+//   tabs: TabsInfo[];
+// }
 
 function Tabs({ tabs }: any) {
   const [currentTab, setCurrentTab] = useState<string>(tabs[0].id);
