@@ -20,13 +20,13 @@
     "tabTitle": "Bumba Meu Boi",
     "title": "Bumba Meu Boi",
     "content": "Num espetáculo de cores, danças e ritmos, o Bumba-Meu-Boi é a expressão máxima da cultura popular do Maranhão. Elevado a Patrimônio Imaterial do povo brasileiro, a manifestação tem origens indefinidas, mas elementos culturais africanos e europeus, introduzidos principalmente por meio da religiosidade, são evidentes.",
-    "image": "/src/assets/images/bumbaboi.jpg",
+    "image": "https://imagens-projeto-v.vercel.app/images/bumbaboi.jpg",
     "details": {
       "video": "tuCOev-tYWE",
       "description1": "Os brancos trouxeram o enredo da festa; os negros, escravos, acrescentaram o ritmo e os tambores; os índios, antigos habitantes, emprestaram suas danças. E a cada fogueira acesa para São João, os festejos juninos maranhenses foram-se transformando no tempo quente da emoção, da promessa e da diversão. É nesta época de junho, que reina majestoso o Bumba-meu-boi. O auto popular do Bumba-meu-boi conta a estória da Catirina, uma escrava que leva seu homem, o nego Chico, a matar o boi mais bonito da fazenda para satisfazer-lhe o desejo de grávida, de comer língua de boi.",
       "description2": "Com traços semelhante aos dos autos medievais, a brincadeira do Bumba-Meu-Boi existe em outras regiões do País, mas só no Maranhão tem três estilos, três sotaques, e um significado tão especial. É mais que uma explosão de alegria. É 'quase uma forma de oração', servindo como elo de ligação entre o sagrado e o profano, entre santos e devotos, congregando toda a população. ",
-      "image1": "/src/assets/images/bumbaboi2.png",
-      "image2": "/src/assets/images/bumbaboi3.png"
+      "image1": "https://imagens-projeto-v.vercel.app/images/bumbaboi2.png",
+      "image2": "https://imagens-projeto-v.vercel.app/images/bumbaboi3.png"
     }
   },
   {
@@ -35,13 +35,13 @@
     "tabTitle": "São João",
     "title": "São João",
     "content": "No Maranhão, o período junino é marcado por muitos sons, cores e sabores. É o tempo de celebrar todas as ricas manifestações culturais maranhenses. São Luís se transforma em um enorme arraial, são várias estruturas montadas em diferentes pontos da ilha, para apresentações culturais, danças típicas e cantores regionais, além das barracas de comida típica.",
-    "image": "/src/assets/images/saojoao.jpg",
+    "image": "https://imagens-projeto-v.vercel.app/images/saojoao.jpg",
     "details": {
       "video": "kSPr9HuPyG8",
       "description1": "A origem da festa junina é pagã, ou seja, é contrária à doutrina cristã, porque as festas que deram origem às festas juninas homenageavam os deuses da natureza e da fertilidade e pediam fartura nas safras, pois era nessa altura que começava o período da colheita de cereais. Mas, como a igreja não conseguia acabar com a popularidade dessa festa - que surgiu há centenas de anos -, acabou aderindo a ela e atribui-lhe um caráter religioso.",
       "description2": "Os festejos da festa contam com pratos típicos da festa junina, brincadeiras e a quadrilha de São João, como dança tradicional. Porém, vale lembrar que isso pode mudar de região para região. Além disso, outros elementos importantes da festa são o mastro e a fogueira de São João. No Brasil, a noite de São João mais famosa acontece na região nordeste do país, na cidade de Campina Grande, no estado da Paraíba. Esta é considerada a maior festa de São João do mundo.",
-      "image1": "/src/assets/images/saojoao2.png",
-      "image2": "/src/assets/images/saojoao3.png"
+      "image1": "https://imagens-projeto-v.vercel.app/images/saojoao2.png",
+      "image2": "https://imagens-projeto-v.vercel.app/images/saojoao3.png"
     }
   },
   {
@@ -50,13 +50,13 @@
     "tabTitle": "Tambor De Crioula",
     "title": "Tambor De Crioula",
     "content": "Manifestação de raízes africanas que só existe no Maranhão, o Tambor de Crioula foi reconhecido em 2011 como Patrimônio Imaterial Brasileiro. Alegre, sensual e irreverente, pode ser apreciado ao ar livre, nas praças, casas e interior de terreiros por todo o Maranhão, mas sobretudo em São Luís.",
-    "image": "/src/assets/images/tamborcrioula.jpg",
+    "image": "https://imagens-projeto-v.vercel.app/images/tamborcrioula.jpg",
     "details": {
       "video": "sfK3FBtCYy4",
       "description1": "A tradição do Tambor-de-Crioula vem dos descendentes africanos. É uma dança sensual, excitante, que apresenta variantes quanto ao ritmo e a forma de dançar, e que não tem um calendário fixo, embora seja praticada especialmente em louvor a São Benedito. É dançado apenas por mulheres que fazem uma roda, em cujo centro evolui apenas uma delas. ",
       "description2": "O momento alto da evolução é a 'punga' ou umbigada. A punga é uma forma de convite para que outra dançarina assuma a evolução no centro da roda. O Tambor de Crioula é ritimado por 3 tambores, que recebem os nomes de grande ou roncador (faz a marcação para a punga), meião ou socador (responsável pelo ritmo) e pequeno ou crivador (faz o repicado). ",
-      "image1": "/src/assets/images/tamborcrioula2.png",
-      "image2": "/src/assets/images/tamborcrioula3.png"
+      "image1": "https://imagens-projeto-v.vercel.app/images/tamborcrioula2.png",
+      "image2": "https://imagens-projeto-v.vercel.app/images/tamborcrioula3.png"
     }
   },
   {
@@ -65,13 +65,13 @@
     "tabTitle": "Festa Do Divino",
     "title": "Festa Do Divino",
     "content": "Comemorada, durante todo o mês de maio, desde os tempos coloniais, a Festa do Divino Espírito Santo é uma curiosa mistura de devoção ao Divino com homenagens ao Império. Os cortejos populares percorrem as ruas da cidade entoando cânticos até chegar à casa do Imperador, que recebe as homenagens com uma dança peculiar, entoando cantigas de louvor ao Divino ao toque das caixeiras.",
-    "image": "/src/assets/images/festadivino.jpg",
+    "image": "https://imagens-projeto-v.vercel.app/images/festadivino.jpg",
     "details": {
       "video": "tVQkOeygjk8",
       "description1": "O Espírito Santo é uma das três pessoas reveladas por Jesus Cristo e teria vindo dos céus sobre os Apóstolos e a Virgem Maria cinquenta dias após a Páscoa. Por isso, a festa litúrgica é chamada de Pentecostes e observada pela Igreja Católica desde sua origem. Em Portugal, a rainha Isabel (1285-1325) foi a responsável pelo impulso dado à celebração. A soberana tornou-se protetora da Irmandade do Espírito Santo e se envolveu na construção da igreja do mesmo nome na cidade de Alenquer.",
       "description2": "A festa do Divino começa no dia de Pentecostes quando é escolhido um Imperador que será o responsável pela condução da celebração. Em algumas regiões do Brasil a eleição é feita por sorteio, enquanto em outras o bispo aponta a pessoa encarregada. Igualmente são escolhidos auxiliares que ajudarão o Imperador a fazer a festa. Ao longo de todo o ano, são realizadas cantorias e novenas cujo objetivo é arrecadar fundos para custear as cerimônias.",
-      "image1": "/src/assets/images/festadivino2.png",
-      "image2": "/src/assets/images/festadivino3.png"
+      "image1": "https://imagens-projeto-v.vercel.app/images/festadivino2.png",
+      "image2": "https://imagens-projeto-v.vercel.app/images/festadivino3.png"
     }
   },
   {
@@ -80,13 +80,13 @@
     "tabTitle": "Lençois Maranhenses",
     "title": "Lençois Maranhenses",
     "content": "O Parque Nacional dos Lençóis Maranhenses é o destino perfeito para aqueles que buscam aventura e contemplação da natureza. Caminhar sobre as areias brancas do maior campo de dunas do Brasil, se refrescar em lagoas de água cristalina e observar o pôr-do-sol são experiências únicas que você levará para o resto da vida.",
-    "image": "/src/assets/images/imgLencois.webp",
+    "image": "https://imagens-projeto-v.vercel.app/images/imgLencois.webp",
     "details": {
       "video": "7Ikc0bRgwHw",
       "description1": "O Parque Nacional dos Lençóis Maranhenses é uma unidade de conservação brasileira de proteção integral à natureza localizada na região nordeste do estado do Maranhão. O território do parque, com uma área de 156 584 ha, está distribuído pelos municípios de Barreirinhas, Primeira Cruz e Santo Amaro do Maranhão. O parque foi criado com a finalidade precípua de 'proteger a flora, a fauna e as belezas naturais, existentes no local.' Inserido no bioma costeiro marinho e cerrado, o parque é um exponente dos ecossistemas de mangue, restinga e dunas, associando ventos fortes e chuvas regulares.",
       "description2": "As lagoas do parque estão muitas vezes interligadas umas às outras, assim como os rios que correm pela área. Eles abrigam uma série de espécies de peixes e insetos, incluindo o traíra, que se esconde em camadas molhadas de lama e permanece adormecido durante a estação seca. Além das dunas que formam a peça central do parque, o ecossistema também inclui área de cerrado, restinga e manguezal.",
-      "image1": "/src/assets/images/imgLencois2.png",
-      "image2": "/src/assets/images/imgLencois3.png"
+      "image1": "https://imagens-projeto-v.vercel.app/images/imgLencois2.png",
+      "image2": "https://imagens-projeto-v.vercel.app/images/imgLencois3.png"
     }
   },
   {
@@ -95,13 +95,13 @@
     "tabTitle": "Chapada das Mesas",
     "title": "Chapada das Mesas",
     "content": "O Parque Nacional da Chapada das Mesas é um dos mais novos parques nacionais do Brasil. Florestas de buritizais, sertões, relevo de chapadas vermelhas, compõem um estonteante conjunto de curiosas formações rochosas, cânions, cavernas e cachoeiras. São inúmeras as surpresas e aventuras que uma visita a esse parque pode revelar.",
-    "image": "/src/assets/images/imgChapada.webp",
+    "image": "https://imagens-projeto-v.vercel.app/images/imgChapada.webp",
     "details": {
       "video": "f_CWVqydRE4",
       "description1": "O nome vem de seus platôs, que lembram o formato de mesas de pedra, concentradas principalmente nas cidades de Carolina e Riachão. As cachoeiras e piscinas naturais de água cristalina, com temperaturas amenas em torno de 22° C, e em meio aos imensos paredões rochosos, são as grandes responsáveis pelo encanto que envolve o local. O Parque Nacional da Chapada das Mesas protege 159.953,78 hectares de Cerrado nos municípios de Carolina, Riachão e Estreito, no centro-sul do Maranhão.",
       "description2": "Este santuário ecológico de 160 mil hectares traz incontáveis espetáculos naturais, exemplares únicos do Cerrado brasileiro. Mas, sem dúvida, as cachoeiras e suas piscinas naturais de água cristalina com temperaturas amenas, em meio aos imensos paredões rochosos, são as grandes responsáveis pelo encanto que envolve o Parque. As cachoeiras de São Romão, em Carolina e a Cachoeira da Prata, onde se pode praticar rappel e canionismo são as que mais se destacam por sua grandeza, mas outras atrações como o trekking até o Morro das Figuras, com inscrições rupestres e as trilhas ecológicas como a que leva até o Morro do Chapéu não deixam  nada a desejar no quesito aventura.",
-      "image1": "/src/assets/images/imgChapada2.png",
-      "image2": "/src/assets/images/imgChapada3.png"
+      "image1": "https://imagens-projeto-v.vercel.app/images/imgChapada2.png",
+      "image2": "https://imagens-projeto-v.vercel.app/images/imgChapada3.png"
     }
   },
   {
@@ -110,13 +110,13 @@
     "tabTitle": "São Luis",
     "title": "São Luis",
     "content": "No centro histórico da cidade encontra-se o bairro de Praia Grande, na área circundante da rua de Portugal, marcado por edifícios coloniais com azulejos distintos e varandas em ferro fundido. O Palácio dos Leões, onde reside o governador do estado, exibe arte e mobiliário franceses.",
-    "image": "/src/assets/images/imgSlz.jpg ",
+    "image": "https://imagens-projeto-v.vercel.app/images/imgSlz.jpg",
     "details": {
       "video": "pcsmHHjuR7w",
       "description1": "A capital maranhense, lembrada hoje pelo enorme casario de arquitetura portuguesa, no início abrigava apenas ocas de madeira e palha e uma paisagem quase intocada. Na ilha de Upaon-Açu, segundo cronistas franceses, viviam por volta de 12 000 indígenas tupinambás em 27 aldeias, liderados pelos morubixabas, praticando a agricultura de subsistência (pequenas plantações de mandioca e batata-doce), além das ofertas da natureza, caçando, pescando e coletando frutas. Nos arredores da atual cidade de São Luís, habitava a etnia indígena dos potiguaras.",
       "description2": "São Luís tem manifestações muito fortes como o bumba-meu-boi, festa de tradição afro-indígena que aflora na cidade nas festas do mês de junho. Além disso, possui o Tambor de Crioula e o Cacuriá. Estas manifestações acontecem no período das festas juninas. No carnaval, a tradição de São Luís é um forte carnaval de rua, onde os blocos populares se misturam aos brincantes e às bandinhas tradicionais. O Tambor de Mina, religião afro-brasileira, tem na Casa Grande das Minas Jeje e na Casa de Nagô, fundadas do século XIX, os seus mais importantes terreiros.",
-      "image1": "/src/assets/images/imgSlz2.png",
-      "image2": "/src/assets/images/imgSlz3.png"
+      "image1": "https://imagens-projeto-v.vercel.app/images/imgSlz2.png",
+      "image2": "https://imagens-projeto-v.vercel.app/images/imgSlz3.png"
     }
   },
   {
@@ -125,13 +125,13 @@
     "tabTitle": "Alcântara",
     "title": "Alcântara",
     "content": "Alcântara foi a primeira cidade maranhense tombada pelo Instituto do Patrimônio Histórico e Artístico Nacional, em 1948, como cidade-monumento. Cercada por praias, ilhas desertas, serena e tranquila, Alcântara pode se orgulhar de ser também a mais importante cidade histórica da Amazônia.",
-    "image": "/src/assets/images/imgAlcantra.jpg",
+    "image": "https://imagens-projeto-v.vercel.app/images/imgAlcantra.jpg",
     "details": {
       "video": "U5L6lyiuzMs",
       "description1": "Até 1612, a região era habitada por um aglomerado de aldeias dos índios tupinambás, sendo a principal delas conhecida pelo nome de Tapuitapera. Quando os franceses que chegaram ao Maranhão, liderados por Daniel de La Touche, estabeleceram relações com essas aldeias, construindo a primeira capela. Entre 1616 e 1618, com a expulsão dos franceses, os portugueses começaram o processo de ocupação da região. Com a divisão de capitanias naquele território, Tapuitapera se tornou sede da capitania de Cumã. A capitania teve como primeiros donatários o desembargador Antonio Coelho de Carvalho e seu neto Francisco de Albuquerque Coelho de Carvalho",
       "description2": "Em Alcântara, há um centro espacial do qual são lançados os veículos lançadores de satélites no âmbito da Missão espacial completa brasileira. É o CLA - Centro de Lançamento de Alcântara. Na América Latina, o CLA é o único concorrente do Centro Espacial de Kourou situado na Guiana Francesa, mas, ao contrário deste, o centro espacial brasileiro não opera lançamentos constantes em razão de atrasos logísticos e tecnológicos.",
-      "image1": "/src/assets/images/imgAlcantra2.png",
-      "image2": "/src/assets/images/imgAlcantra3.png"
+      "image1": "https://imagens-projeto-v.vercel.app/images/imgAlcantra2.png",
+      "image2": "https://imagens-projeto-v.vercel.app/images/imgAlcantra3.png"
     }
   },
   {
@@ -140,13 +140,13 @@
     "tabTitle": "Imperatriz",
     "title": "Imperatriz",
     "content": "Imperatriz consolida-se como destino ao turismo de negócios, de eventos, de lazer e ecoturismo. Imperatriz é a principal porta de entrada e o mais seguro ponto de apoio para a região turística estadual classificada como 'Polo das Águas, Cachoeiras e Chapadas'. A par disso, cumpre atentar-se ao caráter estratégico de Imperatriz como cidade polarizadora de uma vasta região, de geografia interestadual, abrangendo, além do sudoeste do Maranhão e norte do Tocantins.",
-    "image": "/src/assets/images/imgImperatriz.png",
+    "image": "https://imagens-projeto-v.vercel.app/images/imgImperatriz.png",
     "details": {
       "video": "8W0G3w7ijtU",
       "description1": "Na cidade, além dos clubes e parques aquáticos, existem as praias no período de veraneio, e também diversas ilhas e pousadas ao longo do Rio Tocantins. Há também vários banhos (balneários populares) como o porão há 42 km de imperatriz, e chama-se rio campo alegre lugar extraordinário para desfrutar com a família, experimentar-se a galinha caipira e desfrutar de um banho frio nas águas do rio campo alegre. Além desse há o Túnel do riacho bananal embaixo da ferrovia a 23 km do centro de imperatriz,a praia do setor agrícola,o bananal, a avenida Beira Rio que forma com o Rio Tocantins, um dos principais cartões de visita de Imperatriz.",
       "description2": "Há também diversas casas noturnas, boates, casas de shows, barzinhos, restaurantes de comidas típicas (Chinesa, Japonesa e Italiana) além da cozinha contemporânea e de pratos finos. As principais casas de shows são a AABB (Associação Atlética Banco do Brasil) e a Arena de Shows do Parque de Exposições. Além desses, tem diversas churrascarias, pizzarias, lanchonetes, sorveterias e vários outros estabelecimentos relacionados a gastronomia.",
-      "image1": "/src/assets/images/imgImperatriz2.png",
-      "image2": "/src/assets/images/imgImperatriz3.png"
+      "image1": "https://imagens-projeto-v.vercel.app/images/imgImperatriz2.png",
+      "image2": "https://imagens-projeto-v.vercel.app/images/imgImperatriz3.png"
     }
   }
 ]
