@@ -1,0 +1,12 @@
+.map-container {
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 90px;
+  height: 400px;
+  width: 75vw;
+  z-index: 2;
+}
+@media screen and (min-width: 0px) and (max-width: 970px) {
+  .map-container {
+    width: 95vw;
+  }
+}

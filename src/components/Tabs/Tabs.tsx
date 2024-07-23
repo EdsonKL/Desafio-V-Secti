@@ -30,7 +30,6 @@ function Tabs({ tabs }: any) {
       <div className={styles.containerContent}>
         {tabs.map((tab: TabsInfo, i: number) => (
           <div key={i}>
-{/* https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Imperatriz_ma_-_panoramio_%283%29.jpg/330px-Imperatriz_ma_-_panoramio_%283%29.jpg */}
             {currentTab == `${tab.id}` && (
               <div className={styles.mainContent}>
                 <div>

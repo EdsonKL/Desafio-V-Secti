@@ -86,7 +86,9 @@
       "description1": "O Parque Nacional dos Lençóis Maranhenses é uma unidade de conservação brasileira de proteção integral à natureza localizada na região nordeste do estado do Maranhão. O território do parque, com uma área de 156 584 ha, está distribuído pelos municípios de Barreirinhas, Primeira Cruz e Santo Amaro do Maranhão. O parque foi criado com a finalidade precípua de 'proteger a flora, a fauna e as belezas naturais, existentes no local.' Inserido no bioma costeiro marinho e cerrado, o parque é um exponente dos ecossistemas de mangue, restinga e dunas, associando ventos fortes e chuvas regulares.",
       "description2": "As lagoas do parque estão muitas vezes interligadas umas às outras, assim como os rios que correm pela área. Eles abrigam uma série de espécies de peixes e insetos, incluindo o traíra, que se esconde em camadas molhadas de lama e permanece adormecido durante a estação seca. Além das dunas que formam a peça central do parque, o ecossistema também inclui área de cerrado, restinga e manguezal.",
       "image1": "https://imagens-projeto-v.vercel.app/images/imgLencois2.png",
-      "image2": "https://imagens-projeto-v.vercel.app/images/imgLencois3.png"
+      "image2": "https://imagens-projeto-v.vercel.app/images/imgLencois3.png",
+      "lat": "-2.4838109",
+      "long": "-43.1322815"
     }
   },
   {
@@ -101,7 +103,9 @@
       "description1": "O nome vem de seus platôs, que lembram o formato de mesas de pedra, concentradas principalmente nas cidades de Carolina e Riachão. As cachoeiras e piscinas naturais de água cristalina, com temperaturas amenas em torno de 22° C, e em meio aos imensos paredões rochosos, são as grandes responsáveis pelo encanto que envolve o local. O Parque Nacional da Chapada das Mesas protege 159.953,78 hectares de Cerrado nos municípios de Carolina, Riachão e Estreito, no centro-sul do Maranhão.",
       "description2": "Este santuário ecológico de 160 mil hectares traz incontáveis espetáculos naturais, exemplares únicos do Cerrado brasileiro. Mas, sem dúvida, as cachoeiras e suas piscinas naturais de água cristalina com temperaturas amenas, em meio aos imensos paredões rochosos, são as grandes responsáveis pelo encanto que envolve o Parque. As cachoeiras de São Romão, em Carolina e a Cachoeira da Prata, onde se pode praticar rappel e canionismo são as que mais se destacam por sua grandeza, mas outras atrações como o trekking até o Morro das Figuras, com inscrições rupestres e as trilhas ecológicas como a que leva até o Morro do Chapéu não deixam  nada a desejar no quesito aventura.",
       "image1": "https://imagens-projeto-v.vercel.app/images/imgChapada2.png",
-      "image2": "https://imagens-projeto-v.vercel.app/images/imgChapada3.png"
+      "image2": "https://imagens-projeto-v.vercel.app/images/imgChapada3.png",
+      "lat": "-7.15673",
+      "long": "-47.1871833"
     }
   },
   {
@@ -116,7 +120,9 @@
       "description1": "A capital maranhense, lembrada hoje pelo enorme casario de arquitetura portuguesa, no início abrigava apenas ocas de madeira e palha e uma paisagem quase intocada. Na ilha de Upaon-Açu, segundo cronistas franceses, viviam por volta de 12 000 indígenas tupinambás em 27 aldeias, liderados pelos morubixabas, praticando a agricultura de subsistência (pequenas plantações de mandioca e batata-doce), além das ofertas da natureza, caçando, pescando e coletando frutas. Nos arredores da atual cidade de São Luís, habitava a etnia indígena dos potiguaras.",
       "description2": "São Luís tem manifestações muito fortes como o bumba-meu-boi, festa de tradição afro-indígena que aflora na cidade nas festas do mês de junho. Além disso, possui o Tambor de Crioula e o Cacuriá. Estas manifestações acontecem no período das festas juninas. No carnaval, a tradição de São Luís é um forte carnaval de rua, onde os blocos populares se misturam aos brincantes e às bandinhas tradicionais. O Tambor de Mina, religião afro-brasileira, tem na Casa Grande das Minas Jeje e na Casa de Nagô, fundadas do século XIX, os seus mais importantes terreiros.",
       "image1": "https://imagens-projeto-v.vercel.app/images/imgSlz2.png",
-      "image2": "https://imagens-projeto-v.vercel.app/images/imgSlz3.png"
+      "image2": "https://imagens-projeto-v.vercel.app/images/imgSlz3.png",
+      "lat": "-2.5298584",
+      "long": "-44.3042257,1783"
     }
   },
   {
@@ -131,7 +137,9 @@
       "description1": "Até 1612, a região era habitada por um aglomerado de aldeias dos índios tupinambás, sendo a principal delas conhecida pelo nome de Tapuitapera. Quando os franceses que chegaram ao Maranhão, liderados por Daniel de La Touche, estabeleceram relações com essas aldeias, construindo a primeira capela. Entre 1616 e 1618, com a expulsão dos franceses, os portugueses começaram o processo de ocupação da região. Com a divisão de capitanias naquele território, Tapuitapera se tornou sede da capitania de Cumã. A capitania teve como primeiros donatários o desembargador Antonio Coelho de Carvalho e seu neto Francisco de Albuquerque Coelho de Carvalho",
       "description2": "Em Alcântara, há um centro espacial do qual são lançados os veículos lançadores de satélites no âmbito da Missão espacial completa brasileira. É o CLA - Centro de Lançamento de Alcântara. Na América Latina, o CLA é o único concorrente do Centro Espacial de Kourou situado na Guiana Francesa, mas, ao contrário deste, o centro espacial brasileiro não opera lançamentos constantes em razão de atrasos logísticos e tecnológicos.",
       "image1": "https://imagens-projeto-v.vercel.app/images/imgAlcantra2.png",
-      "image2": "https://imagens-projeto-v.vercel.app/images/imgAlcantra3.png"
+      "image2": "https://imagens-projeto-v.vercel.app/images/imgAlcantra3.png",
+      "lat": "-2.4043454",
+      "long": "-44.4169225"
     }
   },
   {
@@ -146,7 +154,9 @@
       "description1": "Na cidade, além dos clubes e parques aquáticos, existem as praias no período de veraneio, e também diversas ilhas e pousadas ao longo do Rio Tocantins. Há também vários banhos (balneários populares) como o porão há 42 km de imperatriz, e chama-se rio campo alegre lugar extraordinário para desfrutar com a família, experimentar-se a galinha caipira e desfrutar de um banho frio nas águas do rio campo alegre. Além desse há o Túnel do riacho bananal embaixo da ferrovia a 23 km do centro de imperatriz,a praia do setor agrícola,o bananal, a avenida Beira Rio que forma com o Rio Tocantins, um dos principais cartões de visita de Imperatriz.",
       "description2": "Há também diversas casas noturnas, boates, casas de shows, barzinhos, restaurantes de comidas típicas (Chinesa, Japonesa e Italiana) além da cozinha contemporânea e de pratos finos. As principais casas de shows são a AABB (Associação Atlética Banco do Brasil) e a Arena de Shows do Parque de Exposições. Além desses, tem diversas churrascarias, pizzarias, lanchonetes, sorveterias e vários outros estabelecimentos relacionados a gastronomia.",
       "image1": "https://imagens-projeto-v.vercel.app/images/imgImperatriz2.png",
-      "image2": "https://imagens-projeto-v.vercel.app/images/imgImperatriz3.png"
+      "image2": "https://imagens-projeto-v.vercel.app/images/imgImperatriz3.png",
+      "lat": "-5.5279576",
+      "long": "-47.4842491"
     }
   }
 ]

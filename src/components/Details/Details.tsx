@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import styles from "./Details.module.css";
 import content from "../../json/content.json";
 import Header from "../Header/Header";
+import Maps from "../Maps/Maps";
 
 function Details() {
   const params = useParams();
@@ -10,7 +11,7 @@ function Details() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className={styles.container}>
         <div className={styles.videoContent}>
           <h1>{tabContent?.title}</h1>
@@ -24,6 +25,12 @@ function Details() {
           <p>{tabContent?.content}</p>
         </div>
         <div className={styles.description}>
+          {tabContent?.type == "tourism" ? (
+            <>
+              <h2>Localização do ponto Turistico</h2>
+              <Maps tabContent={tabContent}/>
+            </>
+          ) : null}
           <h1>Mais Detalhes Sobre...</h1>
           <div className={styles.firstContent}>
             <img src={tabContent?.details.image1} alt="" />
