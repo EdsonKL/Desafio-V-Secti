@@ -11,7 +11,7 @@ function Details() {
 
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main className={styles.container}>
         <div className={styles.videoContent}>
           <h1>{tabContent?.title}</h1>
