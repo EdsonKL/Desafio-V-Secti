@@ -15,7 +15,6 @@ function Maps({ tabContent }: any) {
         className="map-container"
       >
         <TileLayer
-          //   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}"
         />
       </MapContainer>

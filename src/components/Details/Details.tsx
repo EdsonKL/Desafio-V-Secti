@@ -3,6 +3,7 @@ import styles from "./Details.module.css";
 import content from "../../json/content.json";
 import Header from "../Header/Header";
 import Maps from "../Maps/Maps";
+import Share from "../Share/Share";
 
 function Details() {
   const params = useParams();
@@ -21,6 +22,7 @@ function Details() {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
+          <Share tabContent={tabContent}/>
           <p>{tabContent?.content}</p>
         </div>
         <div className={styles.description}>

@@ -1,0 +1,28 @@
+.container {
+  margin-top: 20px;
+  width: 860px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 30px;
+  span {
+    align-items: center;
+    font-size: 18px;
+  }
+  img {
+    width: 30px;
+  }
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1030px) {
+    .container{
+        margin-top: 12px;
+        width: 90%;
+    }
+    
+}
