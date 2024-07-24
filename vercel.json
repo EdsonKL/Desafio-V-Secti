@@ -2,7 +2,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "./src/Pages/NotFound/NotFound.tsx",
+        "dest": "./src/Pages/NotFound/NotFound",
         "status": 404
       }
     ]
