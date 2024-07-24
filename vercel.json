@@ -1,0 +1,10 @@
+{
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "./src/pages/NotFound/NotFound.tsx",
+        "status": 404
+      }
+    ]
+  }
+  
