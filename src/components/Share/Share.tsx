@@ -1,6 +1,6 @@
-import IconFace from "../../assets/icons/icon-Face2.png";
-import IconWhats from "../../assets/icons/icon-Whats2.png";
-import IconX from "../../assets/icons/icon-X2.png";
+import IconFace from "../../assets/icons/icon-Face.png";
+import IconWhats from "../../assets/icons/icon-Whats.png";
+import IconX from "../../assets/icons/icon-X.png";
 import styles from "./Share.module.css";
 
 function Share({ tabContent }: any) {

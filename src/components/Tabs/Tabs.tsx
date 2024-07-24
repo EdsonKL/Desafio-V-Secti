@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Tabs.module.css";
 import { TabsInfo } from "../Celebrations/Celebrations";
-import { Link } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 
 // interface TabsProps {
 //   tabs: TabsInfo[];
@@ -9,6 +9,12 @@ import { Link } from "react-router-dom";
 
 function Tabs({ tabs }: any) {
   const [currentTab, setCurrentTab] = useState<string>(tabs[0].id);
+
+  const navigate = useNavigate();
+
+  const navigateToSection = (path: any, hash: any) => {
+    navigate(`${path}${hash}`);
+  };
 
   const handleTabClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     setCurrentTab(e.currentTarget.id);
@@ -38,9 +44,9 @@ function Tabs({ tabs }: any) {
                 <div className={styles.description}>
                   <h2>{tab.title}</h2>
                   <p>{tab.content}</p>
-                  <Link to={`/details/${tab.id}`}>
+                  <button onClick={() => navigateToSection(`/details/${tab.id}`, "#heroDetails")}>
                     Saiba mais
-                  </Link>
+                  </button>
                 </div>
               </div>
             )}

@@ -1,18 +1,32 @@
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import styles from "./Details.module.css";
 import content from "../../json/content.json";
 import Header from "../Header/Header";
 import Maps from "../Maps/Maps";
 import Share from "../Share/Share";
+import { useEffect, useRef } from "react";
 
 function Details() {
+  const heroDetailsRef = useRef<HTMLDivElement | null>(null);
+
+  const location = useLocation();
+
+
   const params = useParams();
   const tabContent = content.find((tab) => tab.id === params.id);
   console.log(tabContent);
+
+  useEffect(() => {
+    const hash = location.hash;
+    if (hash === "#heroDetails" && heroDetailsRef.current) {
+      heroDetailsRef.current?.scrollIntoView({behavior: "instant"});
+    }
+  }, [location]);
+
   return (
-    <>
+    <section ref={heroDetailsRef} id="heroDetails">
       <Header />
-      <main className={styles.container}>
+      <main  className={styles.container}>
         <div className={styles.videoContent}>
           <h1>{tabContent?.title}</h1>
           <iframe
@@ -43,7 +57,7 @@ function Details() {
           </div>
         </div>
       </main>
-    </>
+    </section>
   );
 }
 
