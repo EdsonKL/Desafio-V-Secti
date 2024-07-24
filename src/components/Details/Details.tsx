@@ -8,7 +8,6 @@ function Details() {
   const params = useParams();
   const tabContent = content.find((tab) => tab.id === params.id);
   console.log(tabContent);
-
   return (
     <>
       <Header />
@@ -28,7 +27,7 @@ function Details() {
           {tabContent?.type == "tourism" ? (
             <>
               <h2>Localização do ponto Turistico</h2>
-              <Maps tabContent={tabContent}/>
+              <Maps tabContent={tabContent} />
             </>
           ) : null}
           <h1>Mais Detalhes Sobre...</h1>
