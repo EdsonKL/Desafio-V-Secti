@@ -1,6 +1,7 @@
 import styles from "./Header.module.css";
 import logo from "../../assets/images/logo.png";
 import { Link, useNavigate } from "react-router-dom";
+import { IdSessions } from "../../Types/Enums";
 
 function Header() {
   const navigate = useNavigate();
@@ -20,7 +21,7 @@ function Header() {
           <ul className={styles.navbarList}>
             <li>
               <button
-                onClick={() => navigateToSection("/", "#hero")}
+                onClick={() => navigateToSection("/", `#${IdSessions.Hero}`)}
                 className={styles.navbarItems}
               >
                 Início
@@ -28,7 +29,9 @@ function Header() {
             </li>
             <li>
               <button
-                onClick={() => navigateToSection("/", "#celebrations")}
+                onClick={() =>
+                  navigateToSection("/", `#${IdSessions.Celebration}`)
+                }
                 className={styles.navbarItems}
               >
                 Festas
@@ -36,7 +39,7 @@ function Header() {
             </li>
             <li>
               <button
-                onClick={() => navigateToSection("/", "#foods")}
+                onClick={() => navigateToSection("/", `#${IdSessions.Food}`)}
                 className={styles.navbarItems}
               >
                 Culinária
@@ -44,7 +47,9 @@ function Header() {
             </li>
             <li>
               <button
-                onClick={() => navigateToSection("/", "#handicraft")}
+                onClick={() =>
+                  navigateToSection("/", `#${IdSessions.Handicraft}`)
+                }
                 className={styles.navbarItems}
               >
                 Artesanato
@@ -52,7 +57,7 @@ function Header() {
             </li>
             <li>
               <button
-                onClick={() => navigateToSection("/", "#tourism")}
+                onClick={() => navigateToSection("/", `#${IdSessions.Tourism}`)}
                 className={styles.navbarItems}
               >
                 Turismo
