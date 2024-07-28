@@ -1,28 +1,25 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { TabsInfo } from "../../Types/Types";
+import { ContentProps } from "../../Types/Interfaces";
 import styles from "./Tabs.module.css";
-import { TabsInfo } from "../Celebrations/Celebrations";
-import {useNavigate } from "react-router-dom";
 
-// interface TabsProps {
-//   tabs: TabsInfo[];
-// }
-
-function Tabs({ tabs }: any) {
-  const [currentTab, setCurrentTab] = useState<string>(tabs[0].id);
+function ContentSession({ contentProps }: ContentProps) {
+  const [currentTab, setCurrentTab] = useState<string>(contentProps[0].id);
 
   const navigate = useNavigate();
-
-  const navigateToSection = (path: any, hash: any) => {
+  const navigateToSection = (path: string, hash: string): void => {
     navigate(`${path}${hash}`);
   };
 
-  const handleTabClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleTabClick = (e: React.MouseEvent<HTMLButtonElement>): void => {
     setCurrentTab(e.currentTarget.id);
   };
   return (
     <div className={styles.tabsContainer}>
       <div className={styles.tabs}>
-        {tabs.map((tab: TabsInfo, i: number) => (
+        .
+        {contentProps.map((tab: TabsInfo, i: number) => (
           <button
             key={i}
             id={tab.id}
@@ -34,23 +31,29 @@ function Tabs({ tabs }: any) {
         ))}
       </div>
       <div className={styles.containerContent}>
-        {tabs.map((tab: TabsInfo, i: number) => (
+        {contentProps.map((tab: TabsInfo, i: number) => (
           <div key={i}>
             {currentTab == `${tab.id}` && (
               <div className={styles.mainContent}>
                 <div>
-                  <img src={tab.image} alt="fotoCapa" />
+                  <img
+                    src={tab.image}
+                    alt={`foto de capa sobre ${tab.title}`}
+                  />
                 </div>
                 <div className={styles.description}>
                   <h2>{tab.title}</h2>
                   <p>{tab.content}</p>
-                  <button onClick={() => navigateToSection(`/details/${tab.id}`, "#heroDetails")}>
+                  <button
+                    onClick={() =>
+                      navigateToSection(`/details/${tab.id}`, "#heroDetails")
+                    }
+                  >
                     Saiba mais
                   </button>
                 </div>
               </div>
             )}
-
           </div>
         ))}
       </div>
@@ -58,4 +61,4 @@ function Tabs({ tabs }: any) {
   );
 }
 
-export default Tabs;
+export default ContentSession;

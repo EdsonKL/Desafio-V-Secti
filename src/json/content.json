@@ -161,7 +161,7 @@
   },
   {
     "id": "11",
-    "type": "foods",
+    "type": "food",
     "tabTitle": "Arroz de Cuxá",
     "title": "Arroz de Cuxá",
     "content": "O arroz de cuxá é uma iguaria característica da gastronomia maranhense, famoso pela sua mescla singular de componentes e gostos. Ele é feito com arroz branco cozido e um molho verde elaborado com vinagreira, uma planta originária do local. Geralmente, é apresentado junto com peixe, principalmente tambaqui ou pescada amarela, porém também pode ser servido com carne de sol ou frango.",
@@ -176,7 +176,7 @@
   },
   {
     "id": "12",
-    "type": "foods",
+    "type": "food",
     "tabTitle": "Juçara",
     "title": "Juçara",
     "content": "A juçara, como é chamada no Maranhão, ou o açaí, como é conhecido no resto do país, é uma iguaria que faz parte do cardápio da culinária maranhense. Desempenha um papel importante na cultura local do Maranhão, sendo celebrado em festivais e eventos que destacam a culinária regional. Sua versatilidade na cozinha e seus benefícios nutricionais fazem dele não apenas um alimento saboroso, mas também um elemento crucial na gastronomia e na saúde dos maranhenses.",
@@ -191,7 +191,7 @@
   },
   {
     "id": "13",
-    "type": "foods",
+    "type": "food",
     "tabTitle": "Doce de Buriti",
     "title": "Doce de Buriti",
     "content": "O doce do buriti é um doce 100% natural e muito popular nas feirinhas do Maranhão. O buriti é uma pequena fruta vermelha escura que, embora não esteja entre frutos mais conhecidos para consumo, é rico em nutrientes muito importantes para o bom funcionamento do corpo.",
@@ -206,7 +206,7 @@
   },
   {
     "id": "14",
-    "type": "foods",
+    "type": "food",
     "tabTitle": "Peixada Maranhense",
     "title": "Peixada Maranhense",
     "content": "A peixada maranhense é semelhante às moquecas baiana e capixaba. De origem indígena, tem como ingrediente principal a pescada, mas também pode ser feita com outros peixes. Um dos diferenciais de suas semelhantes é que vem com ovo cozido, normalmente inteiro.",

@@ -1,26 +1,16 @@
-import Tabs from "../Tabs/Tabs";
-import styles from "./Celetrations.module.css";
+import ContentSession from "../ContentSession/ContentSession";
 import content from "../../json/content.json";
-export type Details = {
-  video: string;
-  image1: string;
-  image2: string;
-};
-export type TabsInfo = {
-  id: string;
-  type: string;
-  tabTitle: string;
-  title: string;
-  content: string;
-  image: string;
-  details: Details;
-};
+import { TabsInfo } from "../../Types/Types";
+import styles from "./Celetrations.module.css";
+import { IdSessions } from "../../Types/Enums";
 
 function Celebration() {
-  const tabs = content.filter((tab) => tab.type === "celebration");
+  const contentProps: TabsInfo[] = content.filter(
+    (tab) => tab.type === IdSessions.Celebration
+  );
 
   return (
-    <section id="celebrations" className={styles.mainContent}>
+    <section className={styles.mainContent}>
       <div className={styles.textTitle}>
         <h1>Festas</h1>
         <p>
@@ -33,7 +23,7 @@ function Celebration() {
           calendário cultural do Maranhão.
         </p>
       </div>
-      <Tabs tabs={tabs} />
+      <ContentSession contentProps={contentProps} />
     </section>
   );
 }
