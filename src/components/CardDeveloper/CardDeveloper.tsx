@@ -2,7 +2,7 @@ import styles from "./Card.module.css";
 import githubIcon from "../../assets/icons/github.png";
 import linkedinIcon from "../../assets/icons/linkedin.png";
 
-function Card({ avatar, name, githubLink, linkedinLink }: any) {
+function CardDeveloper({ avatar, name, githubLink, linkedinLink }: any) {
   return (
     <div>
       <div className={styles.card}>
@@ -35,4 +35,4 @@ function Card({ avatar, name, githubLink, linkedinLink }: any) {
   );
 }
 
-export default Card;
+export default CardDeveloper;

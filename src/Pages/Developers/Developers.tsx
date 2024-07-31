@@ -3,7 +3,7 @@ import styles from "./Developers.module.css";
 import avatarEd from "../../assets/images/avatarEd.png";
 import avatarGabs from "../../assets/images/avatarGabs.png";
 import avatarMat from "../../assets/images/avatarMat.png";
-import Card from "../../components/Card/Card";
+import CardDeveloper from "../../components/CardDeveloper/CardDeveloper";
 
 function Developers() {
   return (
@@ -20,19 +20,19 @@ function Developers() {
           </p>
         </div>
         <div className={styles.devsContainer}>
-          <Card
+          <CardDeveloper
             avatar={avatarGabs}
             githubLink="https://github.com/gabsmatos"
             linkedinLink="https://www.linkedin.com/in/gabriela-matos-5318b31bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             name="< Ana Gabriela />"
           />
-          <Card
+          <CardDeveloper
             avatar={avatarEd}
             githubLink="https://github.com/EdsonKL"
             linkedinLink="https://www.linkedin.com/in/edson-mendes-85555a264/"
             name="< Edson Mendes />"
           />
-          <Card
+          <CardDeveloper
             avatar={avatarMat}
             githubLink="https://github.com/ymatteu"
             linkedinLink="#"

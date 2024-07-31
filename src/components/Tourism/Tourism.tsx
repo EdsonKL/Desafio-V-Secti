@@ -1,13 +1,16 @@
-import Tabs from "../Tabs/Tabs";
-import styles from "./Tourism.module.css";;
-import content from "../../json/content.json"
-// import { TabsInfo } from "../Celebrations/Celebrations";
+import ContentSession from "../ContentSession/ContentSession";
+import styles from "./Tourism.module.css";
+import content from "../../json/content.json";
+import { IdSessions } from "../../Types/Enums";
+import { TabsInfo } from "../../Types/Types";
 
 function Tourism() {
-  const tabs = content.filter(tab => tab.type === "tourism")
+  const contentProps: TabsInfo[] = content.filter(
+    (tab) => tab.type === IdSessions.Tourism
+  );
 
   return (
-    <section id="tourism" className={styles.mainContent}>
+    <section className={styles.mainContent}>
       <div className={styles.textTitle}>
         <h1>Turismo</h1>
         <p>
@@ -21,7 +24,7 @@ function Tourism() {
           tesouros que fazem do Maranhão um lugar verdadeiramente especial.
         </p>
       </div>
-      <Tabs tabs={tabs}/>
+      <ContentSession contentProps={contentProps} />
     </section>
   );
 }

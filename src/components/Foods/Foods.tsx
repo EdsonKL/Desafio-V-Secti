@@ -1,12 +1,16 @@
 // import { TabsInfo } from "../Celebrations/Celebrations";
-import Tabs from "../Tabs/Tabs";
+import ContentSession from "../ContentSession/ContentSession";
 import styles from "./Foods.module.css";
 import content from "../../json/content.json";
+import { IdSessions } from "../../Types/Enums";
+import { TabsInfo } from "../../Types/Types";
 
 function Foods() {
-  const tabs = content.filter((tab) => tab.type === "foods") 
+  const contentProps: TabsInfo[] = content.filter(
+    (tab) => tab.type === IdSessions.Food
+  );
   return (
-    <section id="foods" className={styles.mainContent}>
+    <section className={styles.mainContent}>
       <div className={styles.textTitle}>
         <h1>Culinária</h1>
         <p>
@@ -19,7 +23,7 @@ function Foods() {
           ingredientes que exaltam a essência do Maranhão.
         </p>
       </div>
-      <Tabs tabs={tabs} />
+      <ContentSession contentProps={contentProps} />
     </section>
   );
 }
