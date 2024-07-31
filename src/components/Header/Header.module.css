@@ -15,7 +15,7 @@ header{
     justify-content: space-between;
     width: 95%;
     margin: 0 auto;
-    padding: 0px;
+    padding: 1.5rem 6rem;
     border: 2px;
 }
 
@@ -40,4 +40,64 @@ header{
 
 img{
     width: 100px;
+}
+
+.mobileMenuIcon{
+    display: none;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+@media screen and (max-width: 910px) {
+    header {
+        padding: 10px 60px;
+        flex-direction: column;
+
+    }
+    
+    .container {
+        padding: 24px 10px;
+        justify-content: space-between;
+    }
+    
+    .navbar {
+        padding: 1.5rem 0rem;
+        margin-right: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+    }
+    .navbarItems{
+        display: none;
+    }
+    .mobileMenuIcon{
+        display: block;
+        button{
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            width: 60px;
+            img{
+                width: 50px;
+            }
+        }
+    }
+
+    .mobileMenu {
+        display: flex;
+    }
+
+    .mobileMenu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobileMenu .navbarItems{
+        display: block;
+        padding: 0.5rem 2rem;
+    }
 }
