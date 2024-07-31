@@ -10,7 +10,7 @@ function HeroSection() {
         <img src={imgMA} alt="imagem do maranhão em mapa" />
       </div>
       <div className={styles.textContent}>
-        <h1>Se aventure em diversos assuntos</h1>
+        <h1>Aventure-se em diversos assuntos</h1>
         <p>
           A cultura do Maranhão é um verdadeiro tesouro, rica em tradições e
           manifestações que refletem a diversidade e a história deste estado

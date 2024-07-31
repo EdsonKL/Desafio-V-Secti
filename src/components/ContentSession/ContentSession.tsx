@@ -18,7 +18,7 @@ function ContentSession({ contentProps }: ContentProps) {
   return (
     <div className={styles.tabsContainer}>
       <div className={styles.tabs}>
-        .
+        
         {contentProps.map((tab: TabsInfo, i: number) => (
           <button
             key={i}

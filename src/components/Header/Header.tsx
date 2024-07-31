@@ -23,6 +23,7 @@ function Header() {
   const navigate = useNavigate();
 
   const navigateToSection = (path: any, hash: any) => {
+    switchMenu()
     navigate(`${path}${hash}`);
   };
 
@@ -85,73 +86,71 @@ function Header() {
               </Link>
             </li>
           </ul>
-
-          <div className={styles.mobileMenuIcon}>
-              {isOpen ? (
-                <button onClick={switchMenu}><img src= {closeMenu} alt="closeMenu"></img></button>
-              ) : (
-                <button onClick={switchMenu}><img src= {menuSanduiche} alt="menuSanduiche"></img></button>
-              )} 
-              
-          </div>
-
-         
-
         </nav>
-          
+        <div className={styles.mobileMenuIcon}>
+          {isOpen ? (
+            <button onClick={switchMenu}>
+              <img src={closeMenu} alt="closeMenu"></img>
+            </button>
+          ) : (
+            <button onClick={switchMenu}>
+              <img src={menuSanduiche} alt="menuSanduiche"></img>
+            </button>
+          )}
+        </div>
       </div>
-          
-          {isOpen ?(
-            <nav className={styles.mobileMenu}>
-              <ul className={styles.navbarList}>
-                <li>
-                  <button
-                    onClick={() => navigateToSection("/", "#hero")}
-                    className={styles.navbarItems}
-                  >
-                    Início
-                  </button>
-                </li>
-                <li>
-                  <button
-                    onClick={() => navigateToSection("/", "#celebrations")}
-                    className={styles.navbarItems}
-                  >
-                    Festas
-                  </button>
-                </li>
-                <li>
-                  <button
-                    onClick={() => navigateToSection("/", "#foods")}
-                    className={styles.navbarItems}
-                  >
-                    Culinária
-                  </button>
-                </li>
-                <li>
-                  <button
-                    onClick={() => navigateToSection("/", "#handicraft")}
-                    className={styles.navbarItems}
-                  >
-                    Artesanato
-                  </button>
-                </li>
-                <li>
-                  <button
-                    onClick={() => navigateToSection("/", "#tourism")}
-                    className={styles.navbarItems}
-                  >
-                    Turismo
-                  </button>
-                </li>
-                <li>
-                  <Link to="/devs" className={styles.navbarItems}>
-                    Desenvolvedores
-                  </Link>
-                </li>
-              </ul>
-            </nav>
-          ): null} 
+
+      {isOpen ? (
+        <nav className={styles.mobileMenu}>
+          <ul className={styles.navbarList}>
+            <li>
+              <button
+                onClick={() => navigateToSection("/", `#${IdSessions.Hero}`)}
+                className={styles.navbarItems}
+              >
+                Início
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => navigateToSection("/", `#${IdSessions.Celebration}`)}
+                className={styles.navbarItems}
+              >
+                Festas
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => navigateToSection("/", `#${IdSessions.Food}`)}
+                className={styles.navbarItems}
+              >
+                Culinária
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => navigateToSection("/", `#${IdSessions.Handicraft}`)}
+                className={styles.navbarItems}
+              >
+                Artesanato
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => navigateToSection("/", `#${IdSessions.Tourism}`)}
+                className={styles.navbarItems}
+              >
+                Turismo
+              </button>
+            </li>
+            <li>
+              <Link to="/devs" className={styles.navbarItems}>
+                Desenvolvedores
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      ) : null}
     </header>
   );
 }

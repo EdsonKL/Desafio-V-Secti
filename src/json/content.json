@@ -218,5 +218,35 @@
       "image1": "https://i.ytimg.com/vi/3wErDbSOOxo/maxresdefault.jpg",
       "image2": "https://www.essemundoenosso.com.br/wp-content/uploads/2017/07/culinaria-maranhense-3-peixada.jpg"
     }
+  },
+  {
+    "id": "15",
+    "type": "handicraft",
+    "tabTitle": "Azulejo",
+    "title": "Azulejo",
+    "content": "A arquitetura colonial da capital São Luís, também conhecida como a “Cidade dos Azulejos”, é um convite para a lentidão do caminhar. Seu repertório de azulejaria é um registro da dominação moura na história de Portugal trazida na colonização do Brasil. O uso dos azulejos nas fachadas é um convite ao flanar e é considerado como uma das produções mais originais da cultura portuguesa.",
+    "image": "https://crab.sebrae.com.br/wp-content/uploads/2023/07/azulejo.jpg",
+    "details": {
+      "video": "JKcjBiljpok",
+      "description1": "Nas superfícies dos azulejos e das telhas, os artesãos exaltam a beleza dos detalhes das dezenas de casarões de origem portuguesa, ressaltando a importância desse pedaço da história contado há mais de 400 anos. Os azulejos são as lembranças mais desejadas por todos os visitantes do Centro Histórico.",
+      "description2": "A influência moura, origem da azulejaria portuguesa, com os seus padrões decorativos característicos de um estilo facilmente identificável, encontrou no artesanato maranhense o caminho criativo para uma produção ricamente elaborada, marcada por um padrão cromático exuberante e por técnicas de esmaltação requintadas.",
+      "image1": "https://oimparcial.com.br/media/2018/11/Maranh%C3%A3o-2015-880-1024x678.jpg",
+      "image2": "https://www.papelnamao.com.br/media/catalog/product/cache/1/image/800x/17f82f742ffe127f42dca9de82fb58b1/a/j/aj005_1_.jpg"
+    }
+  },
+  {
+    "id": "16",
+    "type": "handicraft",
+    "tabTitle": "Buriti",
+    "title": "Buriti",
+    "content": "O buriti fornece, ainda, palmito saboroso, fécula, seiva e madeira. As folhas jovens produzem uma fibra muito fina, a 'seda' do buriti, usada pelos artesãos na fabricação de peças de capim-dourado. Na região dos Lençóis Maranhenses nos municípios de Barreirinhas e Paulino Neves o artesanato feito por mulheres em vários povoados.",
+    "image": "https://images.tcdn.com.br/img/img_prod/620547/pl06_bracelete_em_palha_de_buriti_1132_1_6601f50a2dd89d14f8472ebf08a06378.jpg",
+    "details": {
+      "video": "U-1B3dlhcAI",
+      "description1": " A folha jovem, conhecida como 'olho do buriti' ou 'linho do buriti', possui uma fibra, que é transformada no artesanato de bolsas, tapetes, toalhas de mesa, brinquedos, bijuterias, redes, cobertura de teto, cordas etc. O talo das folhas se presta ainda à fabricação de móveis, que se destacam pela leveza e durabilidade. O caule e as flores são utilizadas na fabricação do vinho de buriti.",
+      "description2": "Seu fruto, além de rico em vitamina A, B e C, ainda fornece cálcio, ferro e proteínas. Consumido tradicionalmente ao natural, o fruto do buriti também pode ser transformado em doces, sucos, picolé, licor, vinho, sobremesas de paladar peculiar e ração de animais. O óleo extraído da fruta é rico em caroteno e tem valor medicinal para os povos tradicionais do Cerrado que o utilizam como vermífugo, cicatrizante e energético natural.",
+      "image1": "https://cdn.awsli.com.br/600x1000/1572/1572502/produto/12906017485c6a18f9f.jpg",
+      "image2": "https://www.embrapa.br/documents/58057223/66882432/buriti%2Bfrutos_000g2taa77e02wx5ok0r2ma0n7hpfmw4.png/f1fd3c7e-8caf-c97f-baf9-f2b22328d3b1?t=1638988397053"
+    }
   }
 ]

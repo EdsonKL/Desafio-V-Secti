@@ -34,7 +34,7 @@
     }
   }
 }
-@media screen and (min-width: 510px) and (max-width: 880px) {
+@media screen and (min-width: 440px) and (max-width: 880px) {
   .tabs {
     width: 100%;
     button {
@@ -42,11 +42,11 @@
     }
   }
 }
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 440px) {
   .tabs {
-    width: 110%;
+    width: 140%;
     button {
-      font-size: 13px;
+      font-size: 12px;
     }
   }
 }
@@ -65,9 +65,17 @@
     }
   }
 }
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media screen and (min-width: 440px) and (max-width: 600px) {
   .containerContent {
-    width: 115%;
+    width: 110%;
+    button {
+      font-size: 15px;
+    }
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 440px) {
+  .containerContent {
+    width: 125%;
     button {
       font-size: 15px;
     }
