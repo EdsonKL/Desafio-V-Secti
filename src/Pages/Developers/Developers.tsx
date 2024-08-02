@@ -4,6 +4,7 @@ import avatarEd from "../../assets/images/avatarEd.png";
 import avatarGabs from "../../assets/images/avatarGabs.png";
 import avatarMat from "../../assets/images/avatarMat.png";
 import CardDeveloper from "../../components/CardDeveloper/CardDeveloper";
+import Footer from "../../components/Footer/Footer";
 
 function Developers() {
   return (
@@ -40,6 +41,7 @@ function Developers() {
           />
         </div>
       </main>
+      <Footer/>
     </div>
   );
 }

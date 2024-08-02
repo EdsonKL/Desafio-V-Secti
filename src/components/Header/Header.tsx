@@ -8,7 +8,7 @@ import { IdSessions } from "../../Types/Enums";
 
 function Header() {
  
-  const [isOpen , setIsOpen] = useState(false);
+  const [isOpen , setIsOpen] = useState<boolean>(false);
 
   function switchMenu() {
     if (isOpen) {

@@ -107,7 +107,7 @@ header {
 }
 @media screen and (max-width: 510px) {
   header {
-    padding: 10px;
+    padding: 0 10px;
     .navbar {
       width: 0;
     }
