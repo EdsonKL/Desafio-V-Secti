@@ -7,6 +7,7 @@ import { IdSessions } from "./Types/Enums";
 import { useLocation } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import Handicraft from "./components/Handicraft/Handicraft";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const heroRef = useRef<HTMLDivElement | null>(null);
@@ -50,6 +51,7 @@ function App() {
           <Tourism />
         </div>
       </main>
+      <Footer/>
     </>
   );
 }
