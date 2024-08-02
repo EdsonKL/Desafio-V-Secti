@@ -1,0 +1,41 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    width: 100%;
+
+}
+
+.footerContent{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+img{
+    padding: 10px;
+}
+
+@media screen and (max-width: 424px) {
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+
+        img{
+            padding: 2px;
+        }
+    }
+
+    
+}
